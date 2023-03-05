@@ -1,36 +1,54 @@
 import { Outlet, Link } from "react-router-dom";
+import $ from 'jquery'
+import logo from '../images/General/TWOL Logo.jpg'
+import './Layout.css'
 
 const Layout = () => {
+
+    function toggle(){
+        $('#navHeaderCollapse').toggleClass("collapse");
+    }
+
     return (
         <>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <Link className={"navbar-brand"}to="/">
+    <img src={logo} className="logoNavStyle">
+    </img>
+  </Link>
+
+  <button onClick={toggle} className="navbar-toggler" type="button">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+
+  <div className="collapse navbar-collapse" id="navHeaderCollapse">
+    <ul className="navbar-nav mr-auto mt-2 mt-lg-0" onClick={toggle}>
+      <li className={"nav-link active"}>
+                        <Link className={"nav-link"}to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/Partners">Partners</Link>
+                    <li className={"nav-link"}>
+                        <Link to="/Partners" className={"nav-link"}>Partners</Link>
                     </li>
-                    <li>
-                        <Link to="/Timeline">Timeline</Link>
+                    <li className={"nav-link"}>
+                        <Link to="/Timeline" className={"nav-link"}>Timeline</Link>
                     </li>
-                    <li>
-                        <Link to="/Shop">Shop</Link>
+                    <li className={"nav-link"}>
+                        <Link to="/Shop" className={"nav-link"}>Shop</Link>
                     </li>
-                    <li>
-                        <Link to="/Contact">Contact</Link>
+                    <li className={"nav-link"}>
+                        <Link to="/Contact" className={"nav-link"}>Contact</Link>
                     </li>
-                    <li>
-                        <Link to="/TermsAndConditions">TermsAndConditions</Link>
-                    </li>
-                    <li>
-                        <Link to="/PrivacyPolicy">PrivacyPolicy</Link>
-                    </li>
-                </ul>
-            </nav>
+    </ul>
+  </div>
+</nav>
 
             <Outlet />
-            <footer>Footer</footer>
+            <hr/>
+            <footer>
+                Copyright 2023
+                <Link to="/TermsAndConditions" className={"nav-link"}>Terms And Conditions</Link>
+                <Link to="/PrivacyPolicy" className={"nav-link"}>Privacy Policy</Link>
+            </footer>
         </>
     )
 };
