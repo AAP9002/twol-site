@@ -4,6 +4,7 @@ import logo from '../images/General/TWOL Logo.jpg'
 import './Layout.css'
 
 const Layout = () => {
+    const logoalt = "This Way Of Life Logo";
 
     function toggle(){
         $('#navHeaderCollapse').toggleClass("collapse");
@@ -13,7 +14,7 @@ const Layout = () => {
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <Link className={"navbar-brand"}to="/">
-    <img src={logo} className="logoNavStyle">
+    <img src={logo} className="logoNavStyle" alt={logoalt}>
     </img>
   </Link>
 
