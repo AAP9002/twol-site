@@ -16,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
+        <Route path='twol-site' element={<Home />} />
         <Route path="Partners" element={<Partners />} />
         <Route path="Timeline" element={<Timeline />} />
         <Route path="Shop" element={<Shop />} />
