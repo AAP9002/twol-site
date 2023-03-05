@@ -47,7 +47,7 @@ const Layout = () => {
             </div>
             <footer className="section-blur">
                 <hr/>
-                <p>©2023 This Way Of Life</p>
+                <p className="contrast_background">©2023 This Way Of Life</p>
                 <Link to="/TermsAndConditions" className={"nav-link"}>Terms And Conditions</Link>
                 <Link to="/PrivacyPolicy" className={"nav-link"}>Privacy Policy</Link>
             </footer>
