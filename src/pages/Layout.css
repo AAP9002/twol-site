@@ -9,7 +9,7 @@ a.nav-link, a.navbar-brand{
     position: relative;
     bottom: 0;
     left: 0;
-    backdrop-filter: blur(2px);
+    color: #FFFFFF;
   }
   
   .logoNavStyle{
