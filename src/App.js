@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home/Home'
+import Partners from './pages/Partners/Partners'
+import Timeline from './pages/Timeline/Timeline'
+import Shop from './pages/Shop/Shop'
+import Contact from './pages/Contact/Contact'
+import TC from './pages/Other/TandC'
+import PP from './pages/Other/Privacy'
+import Layout from './pages/Layout'
+import NoPage from './pages/Nopage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          TWOL app in development
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="Partners" element={<Partners />} />
+        <Route path="Timeline" element={<Timeline />} />
+        <Route path="Shop" element={<Shop />} />
+        <Route path="Contact" element={<Contact />} />
+        <Route path="TermsAndConditions" element={<TC />} />
+        <Route path="PrivacyPolicy" element={<PP />} />
+        <Route path="*" element={<NoPage />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 
