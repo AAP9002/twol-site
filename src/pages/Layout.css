@@ -5,6 +5,11 @@ a.nav-link, a.navbar-brand{
   footer{
     width: 100vw;
     text-align: center;
+    height:fit-content;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(2px);
   }
   
   .logoNavStyle{
@@ -14,4 +19,8 @@ a.nav-link, a.navbar-brand{
 
 .navbar-toggler{
     margin-right:10vw;
+}
+
+#renderBox{
+  min-height: calc(100vh - 230px);;
 }
