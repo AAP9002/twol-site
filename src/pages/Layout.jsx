@@ -43,7 +43,9 @@ const Layout = () => {
   </div>
 </nav>
             <div id="renderBox">
-                <Outlet/>
+                <div id="innerRenderBox">
+                    <Outlet/>
+                </div>
             </div>
             <footer className="section-blur">
                 <hr/>
