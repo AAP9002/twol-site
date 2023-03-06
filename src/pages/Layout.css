@@ -25,7 +25,8 @@ a.nav-link, a.navbar-brand{
   min-height: calc(100vh - 230px);
   display: flex;
   flex-direction: column;
-align-items: center;}
+  align-items: center;
+}
 
 #innerRenderBox{
   max-width: 1000px;
