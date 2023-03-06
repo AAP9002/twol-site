@@ -24,8 +24,8 @@ const Home = () => {
     <br />
     <div className={'row'}>
       <div className={'col-md-6'}>
-        <img src={AboutUsTitle} alt = "about us text" className='w-100'></img>
-        <img src={aboutUs} alt = "about us image" className='w-100'></img>
+        <img src={AboutUsTitle} alt={"about us title"} className='w-100'/>
+        <img src={aboutUs} alt={"about us"} className='w-100'/>
       </div>
       <div className={'col-md-6'} style={{backgroundColor:'#49d19f',fontSize:"1.1rem",padding:"10px"}}>
         <p>
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
       </div>
       <div className={'col-md-6'}>
-        <img src={timelineImage} alt = "Timeline image" className='w-100'></img>
+        <img src={timelineImage} alt = "Timeline" className='w-100'></img>
       </div>
     </div>
   </>);
