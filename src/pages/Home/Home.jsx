@@ -4,6 +4,7 @@ import smallLogo from '../../images/General/TWOL Logo 2021.jpg'
 import aboutUs from '../../images/General/temp about us.jpg'
 import timelineImage from '../../images/General/MOD AND SKIN 1A.png'
 import AboutUsTitle from '../../images/General/About Us Text.jpg'
+import sizzle from '../../videos/FullSizeRender.mp4'
 
 
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
     <br />
     <br />
     <div>
-      <iframe className='w-100' src="https://player.vimeo.com/video/805145280?h=830c8491ec&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" style={{ width: "100%", aspectRatio: 16 / 9 }} allow="autoplay; fullscreen; picture-in-picture" title="TWOL Outro Logo.mp4" allowfullscreen></iframe>
-      <script src="https://player.vimeo.com/api/player.js"></script>
+      <video className='w-100' src={sizzle}type='video/mp4' controls autoplay ></video>
+
     </div>
     <b className='Opening_Line' style={{backgroundColor:"white",color:"black"}}>Behind the scene stills of the sizzle reel for the upcoming feature with supporting track Umm from the forthcoming Album</b>
     <br />
