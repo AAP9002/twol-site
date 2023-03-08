@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from './pages/Home/Home'
 import Partners from './pages/Partners/Partners'
 import Timeline from './pages/Timeline/Timeline'
@@ -12,7 +12,7 @@ import NoPage from './pages/Nopage'
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
   );
 }
 
