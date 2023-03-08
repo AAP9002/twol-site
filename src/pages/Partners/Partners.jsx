@@ -35,6 +35,7 @@ const Partners = () => {
     <div className='backgroundImageWrapper'>
       <img src={background} className={'backgroundImage'} alt="margate background" />
     </div>
+    <h1 class='w-100' style={{backgroundColor:"#FA7F88", color: "white", fontWeight: "bold", textAlign: "center",fontSize:"3rem" }}>PARTNERS</h1>
     <br/><br/>
     <div  className='w-100' style={{ backgroundColor: "#ffffff", borderRadius: "20px", padding: "20px" }}>
       <p class='w-100' id="GATCH" style={{ color: "#aa1818", fontWeight: "bold", textAlign: "center",fontSize:"2.5rem" }}>GATCH</p>
