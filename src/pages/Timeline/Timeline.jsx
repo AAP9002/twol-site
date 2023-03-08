@@ -104,7 +104,7 @@ const Timeline = () => {
           </div>
           <div class="desc">
             <p>Big announcements coming soon keep em peeled</p>
-            <img src={SkinandMod} className='w-100' />
+            <img src={SkinandMod} alt="Skin and Mod" className='w-100' />
           </div>
         </div>
       </li>
