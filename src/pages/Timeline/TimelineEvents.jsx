@@ -15,7 +15,7 @@ const TimelineEvents = () => {
           </div>
           <div class="desc">
             <p>Thank you for your support and interest in This Way Of Life😀. For the latest updates, please check out our social</p>
-            <a style={{ fontSize: "1.5rem" }} href='https://www.facebook.com/groups/277301879544554'>
+            <a style={{ fontSize: "1.5rem" }} href='https://www.facebook.com/groups/277301879544554'  target={"_blank"} rel={"noreferrer"}>
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
               </svg>
@@ -60,7 +60,7 @@ const TimelineEvents = () => {
           <div class="desc">
             <h3>Official TWOL film badge now available to buy</h3>
             Coming soon to our shop the OFFICIAL film badge sporting the 5 colour logo.  Made to a very high standard by none other than the renowned The Badge Man Ltd direct from his shop.  Please visit This Way of Life Archives - The Badgeman Ltd and whilst there check out the other amazing badges on offer....
-            <a className='btn btn-primary' href='https://thebadgeman.shop/product/this-way-of-life-official-film-enamel-pin-badge/'>Buy Now from Badgeman</a>
+            <a className='btn btn-primary' href='https://thebadgeman.shop/product/this-way-of-life-official-film-enamel-pin-badge/'  target={"_blank"} rel={"noreferrer"}>Buy Now from Badgeman</a>
           </div>
         </div>
       </li>
@@ -91,7 +91,7 @@ const TimelineEvents = () => {
           </div>
           <div class="desc">
             <h3>We've launched our crowdfunding programme</h3>
-            <p><a href='https://www.indiegogo.com/projects/this-way-of-life-twol-the-promo-film/x/26629334#/'>This Way Of Life 'TWOL' the Promo Film | Indiegogo</a> Please take a look and support us whilst bagging yourself one of our amazing Backer Rewards.  Don't worry if you cant support us financially your help in spreading the word will help us immensely.  We cant make this film without you so please 'Shout it from the top' and Keep on keepin on...</p>
+            <p><a href='https://www.indiegogo.com/projects/this-way-of-life-twol-the-promo-film/x/26629334#/'  target={"_blank"} rel={"noreferrer"}>This Way Of Life 'TWOL' the Promo Film | Indiegogo</a> Please take a look and support us whilst bagging yourself one of our amazing Backer Rewards.  Don't worry if you cant support us financially your help in spreading the word will help us immensely.  We cant make this film without you so please 'Shout it from the top' and Keep on keepin on...</p>
           </div>
         </div>
       </li>

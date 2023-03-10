@@ -11,7 +11,7 @@ const Shop = () => {
         <div className="w-75" style={{padding:"20px"}}>
           <b>THIS WAY OF LIFE OFFICIAL FILM ENAMEL PIN BADGE</b>
           <p>90% OF THE PROFITS ARE REINVESTED INTO THE MAKING OF THE FILM AND THE REMAINING 10% IS DONATED TO “HELP FOR HEROES”</p>
-          <a className='btn btn-primary' style={{float:"right"}} href='https://thebadgeman.shop/product/this-way-of-life-official-film-enamel-pin-badge/'>Buy Now from Badgeman</a>
+          <a className='btn btn-primary' style={{float:"right"}} href='https://thebadgeman.shop/product/this-way-of-life-official-film-enamel-pin-badge/'  target={"_blank"} rel={"noreferrer"}>Buy Now from Badgeman</a>
         </div>
         <div className="w-25">
           <img src={badge} className='w-100' alt="TWOL Badge"/>
