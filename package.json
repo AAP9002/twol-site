@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://twol82.com/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/user-event": "^14.5.1",
     "bootstrap": "^5.3.1",
-    "jquery": "^3.7.0",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "react-router-dom": "^6.14.2"
+    "gh-pages": "^6.0.0",
+    "react-router-dom": "^6.17.0"
   }
 }
