@@ -14,7 +14,7 @@ const Home = () => {
     </div>
     <div className='d-flex'>
       <img src={smallLogo} className={'LogoBack'} alt="Home page logo" />
-      <img src={smallLogo} className={'HomeLogo'} alt="Home page logo" />
+      <img src={smallLogo} className={'HomeLogo'} alt="Home page logo backdrop" />
     </div>
     <b className='Opening_Line'>Rising from the ashes of the 1980`s Mod culture comes a modern-day story of five undying friendships stained by gangland violence, loss and bloody revenge...</b>
     <br />
