@@ -5,6 +5,7 @@ import './Layout.css'
 
 const Layout = () => {
     const logoalt = "This Way Of Life Logo";
+    const currentYear = new Date().getFullYear();
 
     function toggle(){
         $('#navHeaderCollapse').toggleClass("collapse");
@@ -49,7 +50,7 @@ const Layout = () => {
             </div>
             <footer className="section-blur">
                 <hr/>
-                <p className="contrast_background">©2023 This Way Of Life</p>
+                <p className="contrast_background">©{currentYear} This Way Of Life</p>
                 <Link to="/TermsAndConditions" className={"nav-link"}>Terms And Conditions</Link>
                 <Link to="/PrivacyPolicy" className={"nav-link"}>Privacy Policy</Link>
             </footer>
