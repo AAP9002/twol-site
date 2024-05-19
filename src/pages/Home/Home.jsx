@@ -12,7 +12,7 @@ const Home = () => {
     <div className='backgroundImageWrapper'>
       <img src={background} className={'backgroundImage'} alt="Scooter on floor" />
     </div>
-    <div className='d-flex'>
+    <div className='logo-container '>
       <img src={smallLogo} className={'LogoBack'} alt="Home page logo" />
       <img src={smallLogo} className={'HomeLogo'} alt="Home page logo backdrop" />
     </div>
