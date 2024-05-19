@@ -34,6 +34,8 @@ a.nav-link, a.navbar-brand{
 }
 
 #innerRenderBox{
-  max-width: 1000px;
+  max-width: min(1000px, 100vw);
+
+  overflow-x: hidden;
 }
 
