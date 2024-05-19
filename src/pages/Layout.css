@@ -1,6 +1,11 @@
 a.nav-link, a.navbar-brand{
     margin: 10px;
   }
+
+  a.nav-link{
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
   
   footer{
     width: 100vw;
@@ -31,3 +36,4 @@ a.nav-link, a.navbar-brand{
 #innerRenderBox{
   max-width: 1000px;
 }
+

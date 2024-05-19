@@ -5,7 +5,23 @@
     width: 100%;
     height:50vh;
     object-fit: scale-down;
+    position: relative;
+    right: 25%;
 }
+
+.LogoBack{
+    isolation: isolate;
+    mix-blend-mode:color-dodge;
+    width: 100%;
+    height:50vh;
+    object-fit: scale-down;
+    position: relative;
+    filter: blur(200px);
+    opacity: 40%;
+    /* center */
+    left: 25%;
+}
+
 
 .Opening_Line{
     color: white;
